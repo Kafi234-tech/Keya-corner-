@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Special For Habiba</title>
+
+<style>
+
+body{
+margin:0;
+font-family:cursive;
+text-align:center;
+}
+
+.page{
+display:none;
+min-height:100vh;
+padding:20px;
+}
+
+#page1{
+background:#ffd6e7;
+display:block;
+}
+
+button{
+padding:15px;
+border:none;
+border-radius:10px;
+margin:10px;
+font-size:16px;
+}
+
+.btn1{
+background:#ff4da6;
+color:white;
+}
+
+.btn2{
+background:black;
+color:white;
+}
+
+#page2{
+background:#9BE0BE;
+color:#7507A8;
+overflow:hidden;
+}
+
+.scratch{
+background:red;
+padding:10px;
+margin:20px 0;
+}
+
+.item{
+display:flex;
+align-items:center;
+margin:20px 0;
+}
+
+.item img{
+width:120px;
+height:120px;
+border-radius:10px;
+}
+
+.note{
+padding:10px;
+}
+
+.left img{order:1;}
+.left .note{order:2;}
+
+.right img{order:2;}
+.right .note{order:1;}
+
+ .cake {
+  position: fixed;
+  top: -50px;
+  font-size: 30px;
+  pointer-events: none;
+}
+
+@keyframes fall{
+0%{top:-50px;}
+100%{top:100vh;}
+}
+
+.greenbtn{
+background:#15A5E8;
+color:white;
+padding:15px 25px;
+border-radius:10px;
+}
+
+#page3{
+background:#fff;
+}
+
+.calendar{
+margin:auto;
+border-collapse:collapse;
+}
+
+.calendar td{
+border:1px solid #ccc;
+padding:10px;
+width:40px;
+height:40px;
+}
+
+.bday{
+background:pink;
+color:red;
+border-radius:2%;
+}
+
+.footer {
+  position: fixed;
+color:#7507A8;
+text-shadow:0 0 5px #7507A8;
+  
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#loadingPage{
+background:#ffd6e7;
+display:none;
+text-align:center;
+}
+
+.loader{
+width:60px;
+height:60px;
+border:6px solid #ffc0cb;
+border-top:6px solid #ff4da6;
+border-radius:50%;
+animation:spin 1s linear infinite;
+margin:auto;
+margin-top:40vh;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+</style>
+</head>
+
+<body>
+
+<audio id="song1" src="song1.mp3"></audio>
+<audio id="song2" src="song2.mp3"></audio>
+
+<!-- PAGE 1 -->
+
+<div id="page1" class="page">
+
+<h2>Welcome</h2>
+
+<button class="btn1" onclick="openLoading()">
+If you are HABIBA SULTANA then we welcome you 🌸
+</button>
+
+<br>
+
+<button class="btn2" onclick="window.close()">
+if you are not then get lost 👊
+</button>
+
+</div>
+<!-- LOADING PAGE -->
+
+<div id="loadingPage" class="page">
+  
+  <div class="loader"></div>
+  
+  <h2>Loading your past 💚</h2>
+  
+</div>
+
+
+<!-- PAGE 2 -->
+
+<div id="page2" class="page">
+
+
+<h3>Welcome to Your nostalgia</h3>
+
+
+
+<div id="content">
+  
+
+<div class="item left">
+<img src="img1.png">
+<div class="note">মুখের থেকে তো ডালিম বড় তারমানে ছোট থেকেই বড় জিনিষে বড় জায়গায় হাত পা দেওয়ার অভ্যেস😶‍🌫️</div>
+</div>
+
+<div class="item right">
+<img src="img2.png">
+<div class="note"> আম্মু বললো এটা নাকি তখন ওই বাজারের সবচেয়ে সুন্দর জামা কিন্তু আমার প্রশ্ন হলো এতো ভালো জামা পরেও মুখের এই অবস্থা কেন!!</div>
+</div>
+
+<div class="item left">
+<img src="img3.png">
+<div class="note">টুকটুকি রে দোষ দিয়ে তো লাভ নাই তুমি তো কম ঢংগি ছিলালা তোমার বেটি আর কতোই ভালো হবে!!😏</div>
+</div>
+
+<div class="item right">
+<img src="img4.png">
+<div class="note">আমি তো ভাবতাম রিকশা টা আমার তারমানে এটাও আমি দান হিসাবেই পাইসি 🙂</div>
+</div>
+
+<div class="item left">
+<img src="img5.png">
+<div class="note">এসব যা তাই ধরে দাড়িয়ে থেকে কে ছবি তোলাইতো? মনে হচ্ছে ইচ্ছার বিরুদ্ধে জোর করে দাড় করায়ে দিসে🙉</div>
+</div>
+
+<div class="item right">
+<img src="img6.png">
+<div class="note">এই ড্রেসটা নাকি আম্মু বানাই দিসিলো তো ড্রেসটারতোমার সৃতি হিসেবে রাইখা দিতে পারতা পরে টুকটুকি উত্তরাধিকার সুত্রে পাইতো 🐸btw ছবিটা টুকটুকির সাথে মিলে🧡 </div>
+</div>
+
+<div class="item left">
+<img src="img7.png">
+<div class="note">শরীরের থেকে ড্রেস বড় আম্মুর এ বছর নিয়ে পরের বছর চালানোর আইডিয়া তারমানে প্রাচিনকাল থেকেই কার্যকর ছিলো।আমি একা ভুক্তভুগী না😶‍🌫️</div>
+</div>
+
+<div class="item right">
+<img src="img8.png">
+<div class="note">মাঝখানের ছবি পাইনি তাই বড় একটা লাফ দিলাম</div>
+</div>
+
+<div class="item left">
+<img src="img9.png">
+<div class="note">দেখসো কী মোটা হয়ে গেসো!!!</div>
+</div>
+
+<div class="item right">
+<img src="img10.png">
+<div class="note">ছোট মেয়ে থেকে এখন মা এই ট্রানজিশন টা কতোটুক শান্তিপূর্ণ বা satisfying!!!তাও আবার এমন বিচ্ছুর মা🙉</div>
+</div>
+
+<br>
+
+<button class="greenbtn" onclick="openPage3()">click here 🤍</button>
+
+</div>
+
+</div>
+
+
+<!-- PAGE 3 -->
+
+<div id="page3" class="page">
+
+
+
+<table class="calendar">
+
+<tr>
+<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+</tr>
+
+<tr>
+<td>8</td><td>9</td><td class="bday">10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+</tr>
+
+<tr>
+<td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+</tr>
+
+<tr>
+<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+</tr>
+
+<tr>
+<td>29</td><td>30</td><td>31</td>
+</tr>
+
+</table>
+<h2>And Finally <br> Happy Birthday to My Real life inspiration <br> আপু🤍</h2>
+<br><br>
+<h3>ধন্যবাদ আবার আসবেন 👋</h3>
+<div class="footer">
+An AS KAFI creation🔖
+</div>
+
+</div>
+
+
+<script>
+
+
+function openLoading() {
+  
+  document.getElementById("page1").style.display = "none";
+  document.getElementById("loadingPage").style.display = "block";
+  
+  setTimeout(function() {
+    
+    document.getElementById("loadingPage").style.display = "none";
+    openPage2();
+    
+  }, 3000);
+  
+}
+
+
+function openPage2(){
+
+document.getElementById("page1").style.display="none";
+document.getElementById("page2").style.display="block";
+document.getElementById("song1").play();
+
+}
+
+function openPage3(){
+
+document.getElementById("page2").style.display="none";
+document.getElementById("page3").style.display="block";
+document.getElementById("song1").pause();
+document.getElementById("song2").play();
+
+}
+
+function createCake() {
+  
+  if (document.getElementById("page2").style.display !== "block") {
+    return;
+  }
+  
+  let cake = document.createElement("div");
+  cake.innerHTML = "💚";
+  cake.className = "cake";
+
+cake.style.left=Math.random()*100+"vw";
+
+let duration=3+Math.random()*5;
+cake.style.animation=`fall ${duration}s linear`;
+
+document.body.appendChild(cake);
+
+setTimeout(()=>{
+cake.remove();
+},duration*1000);
+
+}
+
+setInterval(createCake,500);
+
+
+
+</script>
+
+</body>
+</html>
